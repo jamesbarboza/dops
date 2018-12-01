@@ -3,23 +3,20 @@ import nltk
 import math
 import random
 import pickle
+import csv
 
 from nltk.classify.scikitlearn import SklearnClassifier
 from sklearn.naive_bayes import MultinomialNB, BernoulliNB
 from sklearn.linear_model import LogisticRegression, SGDClassifier
-from sklearn.svm import SVC, LinearSVC, NuSVC
 
-sys.path.append("../../..")
-sys.path.append("../../models")
-sys.path.append("../../libs/database/mysql")
 sys.path.append("..")
 
 import project_config as config
-from File import File
-from RawFile import RawFile
+from libs.models.File import File
+from libs.models.RawFile import RawFile
 
-from LexicalAnalyzer import LexicalAnalyzer
-from VoteClassifier import VoteClassifier
+from libs.nlp_engine.LexicalAnalyzer import LexicalAnalyzer
+from libs.nlp_engine.VoteClassifier import VoteClassifier
 
 # load files
 # create lexical model
@@ -53,6 +50,14 @@ for raw_object in raw_objects:
 frequency_dist = nltk.FreqDist(all_words)
 word_features = list(frequency_dist.keys())[:math.ceil(len(categories)/2) * 100]
 
+file = open("../data/nlp_engine/training/sports/fifa_world_cup/WorldCupPlayers.csv", "r")
+csv_data = csv.reader(file, delimiter=",")
+rows = [row for row in csv_data]
+for row in rows:
+    word_features += nltk.word_tokenize(row[0])
+    word_features += nltk.word_tokenize(row[1])
+file.close()
+
 print("Created Frequency Distribution")
 
 def find_features(document):
@@ -70,14 +75,17 @@ def find_features(document):
 feature_set = []
 counter = 0
 for raw_object in data:
-    feature_set.append((find_features(raw_object['headline'] + raw_object['short_description']), raw_object['category']))
+    feature_set.append((find_features(raw_object['headline'] + " " + raw_object['short_description']), raw_object['category']))
     counter += 1
     print(counter)
 
+for row in rows:
+    feature_set.append((find_features(row[0] + " " + row[1]),row[2]))
+
 random.shuffle(feature_set)
 
-training_set = feature_set[:55000]
-testing_set = feature_set[55000:]
+training_set = feature_set
+testing_set = feature_set[58000:]
 
 print("Training and testing set created")
 print("Classifying...")
@@ -121,31 +129,12 @@ file = open(config.__project_dir__ + "data/nlp_engine/document_classifications/c
 pickle.dump(sgdc_classifier, file)
 file.close()
 
-#Linear Support Vector Classification
-linear_svc_classifier = SklearnClassifier(LinearSVC())
-linear_svc_classifier.train(training_set)
-print("Algorithm: Linear Support Vector Classification", "Accuracy:", nltk.classify.accuracy(sgdc_classifier, testing_set) * 100)
-file = open(config.__project_dir__ + "data/nlp_engine/document_classifications/classifiers/linear_svc.pkl", "wb")
-pickle.dump(linear_svc_classifier, file)
-file.close()
-
-"""
-#Nu-Support Vector Classification
-nu_svc_classifier = SklearnClassifier(NuSVC())
-nu_svc_classifier.train(training_set)
-print("Algorithm: Nu-Support Vector Classification", "Accuracy:", nltk.classify.accuracy(nu_svc_classifier, testing_set) * 100)
-file = open(config.__project_dir__ + "data/nlp_engine/document_classifications/classifiers/nu_svc.pkl", "wb")
-pickle.dump(nu_svc_classifier, file)
-file.close()
-"""
-
 voted_classifier = VoteClassifier(
     naive_bayes_classifier,
     multinomial_naive_bayes_classifier,
     bernoulli_naive_bayes_classifier,
     logistic_regression_classifier,
-    sgdc_classifier,
-    linear_svc_classifier
+    sgdc_classifier
 )
 
 print("Classification:", voted_classifier.classify(testing_set[0][0]), "Confidence %:",voted_classifier.confidence(testing_set[0][0])*100)
