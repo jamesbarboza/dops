@@ -1,0 +1,71 @@
+1	
+	
+Barcelona
+	14	18	28
+2	
+	
+Sevilla
+	14	11	27
+3		
+Atl Madrid
+	14	8	25
+4		
+Alavés
+	14	4	24
+5		
+Real Madrid
+	14	3	23
+6		
+Espanyol
+	14	1	21
+7	
+	
+Girona
+	14	1	21
+8	
+	
+Getafe
+	14	4	20
+9		
+Real Sociedad
+	14	1	19
+10	
+	
+Real Betis
+	14	-3	19
+11	
+	
+Levante
+	13	-1	18
+12	
+	
+Eibar
+	14	-4	18
+13	
+	
+Celta Vigo
+	14	3	17
+14	
+	
+Valencia
+	14	0	17
+15	
+	
+Real Valladolid
+	14	-3	17
+16	
+	
+Leganés
+	14	-4	16
+17		
+Villarreal
+	14	-3	14
+18		
+Ath Bilbao
+	13	-6	11
+19		
+Rayo Vallecano
+	14	-13	10
+20		
+Huesca
+	14	-17	7

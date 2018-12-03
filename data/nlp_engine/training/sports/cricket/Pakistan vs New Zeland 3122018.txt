@@ -1,0 +1,63 @@
+New Zealand 1st Innings
+Batsman	How Out	Bowler	Runs	Mins	Balls	4s	6s	SR
+Total	(90.0 overs)	229-for7wickets		
+Raval	lbw	b Yasir	45	99	82	4	0	54.88
+Latham	lbw	b Afridi	4	27	11	1	0	36.36
+Williamson	c Shafiq	b Hasan	89	249	176	7	0	50.57
+Taylor		b Yasir	0	2	1	0	0	0.00
+Nicholls		b Yasir	1	15	13	0	0	7.69
+Watling	not out		42	247	180	1	0	23.33
+de Grandhomme	c Shafiq	b Asif	20	37	22	1	1	90.91
+Southee	c Babar	b Asif	2	11	9	0	0	22.22
+Somerville	not out		12	42	46	0	0	26.09
+Extras	0nb 0w 8b 6lb 	14	
+Bowler	Overs	Maidens	Runs	Wickets	Econ
+Hasan	16.0	5	46	1	2.88
+Afridi	17.0	4	43	1	2.53
+Yasir	31.0	9	62	3	2.00
+Asif	24.0	2	57	2	2.38
+Sohail	2.0	0	7	0	3.50
+Fall of Wicket	Batsman
+24-1 (5.4 ovs)	Latham
+70-2 (22.2 ovs)	Raval
+70-3 (22.3 ovs)	Taylor
+72-4 (26.3 ovs)	Nicholls
+176-5 (67.6 ovs)	Williamson
+203-6 (76.2 ovs)	de Grandhomme
+209-7 (78.2 ovs)	Southee
+Pakistan
+
+    Imam ul-Haq
+    Mohammad Hafeez
+    Azhar Ali
+    Haris Sohail
+    Asad Shafiq
+    Babar Azam
+    Sarfraz Ahmed(c)(wk)
+    Bilal Asif
+    Yasir Shah
+    Hasan Ali
+    Shaheen Afridi
+
+New Zealand
+
+    Jeet Raval
+    Tom Latham
+    Kane Williamson(c)
+    Ross Taylor
+    Henry Nicholls
+    BJ Watling(wk)
+    Colin de Grandhomme
+    Tim Southee
+    Ajaz Patel
+    William Somerville
+    Trent Boult
+
+Start Time:
+    06:00
+Toss:
+    New Zealand won the toss and decided to bat
+Venue:
+    Sheikh Zayed Stadium, Abu Dhabi
+Officials:
+    Paul Reiffel, Ian Gould, Bruce Oxenford, Ahsan Raza, Javagal Srinath

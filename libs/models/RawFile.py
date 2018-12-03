@@ -1,7 +1,7 @@
 import os
 from os.path import isfile
 import json
-
+import csv
 import project_config as config
 from libs.models.File import File
 
@@ -38,6 +38,10 @@ class RawFile(File):
 		elif(self._file_extension == ".json"):
 			file = open(self._file_path, "r")
 			self._file_content = json.load(file)
+			file.close()
+		elif(self._file_extension == ".csv"):
+			file = open(self._file_path, "r")
+			self._file_content['content'] = { 'content': csv.reader(file, delimiter=",") }
 			file.close()
 
 	#	read the file contents

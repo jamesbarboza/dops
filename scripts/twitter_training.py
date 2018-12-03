@@ -24,13 +24,13 @@ from libs.nlp_engine.VoteClassifier import VoteClassifier
 print("Initializing...")
 
 rawfile = RawFile()
-rawfile.load(config.__project_dir__ + "data/nlp_engine/training/News_Category_Dataset.json")
+rawfile.load(config.__project_dir__ + "data/nlp_engine/training/news/News_Category_Dataset.json")
 raw_objects = rawfile.read()
 
 #categories = [ raw_object['category'] for raw_object in raw_objects]
 #categories = list(set(categories))
 
-categories = [ "POLITICS", "WORLD NEWS", "MEDIA", "SPORTS", "ENTERTAINMENT", "TECH", "CRIME", "SCIENCE"]
+categories = [ "POLITICS", "WORLD NEWS", "MEDIA", "SPORTS", "CRIME"]
 all_words = []
 
 data = []
@@ -50,12 +50,17 @@ for raw_object in raw_objects:
 frequency_dist = nltk.FreqDist(all_words)
 word_features = list(frequency_dist.keys())[:math.ceil(len(categories)/2) * 100]
 
+#add world cup players to the word features
 file = open("../data/nlp_engine/training/sports/fifa_world_cup/WorldCupPlayers.csv", "r")
 csv_data = csv.reader(file, delimiter=",")
 rows = [row for row in csv_data]
+rows = [21000:]
+counter = 0
 for row in rows:
     word_features += nltk.word_tokenize(row[0])
     word_features += nltk.word_tokenize(row[1])
+    counter += 1
+    print(counter)
 file.close()
 
 print("Created Frequency Distribution")
@@ -142,7 +147,6 @@ print("Classification:", voted_classifier.classify(testing_set[1][0]), "Confiden
 print("Classification:", voted_classifier.classify(testing_set[2][0]), "Confidence %:",voted_classifier.confidence(testing_set[2][0])*100)
 print("Classification:", voted_classifier.classify(testing_set[3][0]), "Confidence %:",voted_classifier.confidence(testing_set[3][0])*100)
 print("Classification:", voted_classifier.classify(testing_set[4][0]), "Confidence %:",voted_classifier.confidence(testing_set[4][0])*100)
-print("Classification:", voted_classifier.classify(testing_set[5][0]), "Confidence %:",voted_classifier.confidence(testing_set[5][0])*100)
 
 def category_classification(text):
     feats = find_features(text)
