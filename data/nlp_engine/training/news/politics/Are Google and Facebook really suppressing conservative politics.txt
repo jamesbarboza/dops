@@ -1,0 +1,84 @@
+Are Google and Facebook really suppressing conservative politics?
+Accusations of encoded anti-conservative prejudice are gaining traction, but experts say the claims are just a red herring
+
+In August, Paula Bolyard, a supervising editor at the conservative news outlet PJ Media, published a story reporting that 96% of Google search results for Donald Trump prioritized “left-leaning and anti-Trump media outlets”.
+
+Bolyard’s results were generated according to her own admittedly unscientific methodology. She searched for “Trump” in Google’s News tab, and then used a highly questionable media chart that separated outlets into “left” and “right” to tabulate the results. She reported that 96 of 100 results returned were from so-called “left-leaning” news outlets, with 21 of those from CNN alone. Despite this dubious methodology, Bolyard’s statistic spread, and her story was picked up by a Fox Business Network show.
+
+ Are Google search results politically biased?
+Jeff Hancock, Danaë Metaxa-Kakavouli and Joon Park
+ Read more
+A few days later, Donald Trump tweeted that Google results were “RIGGED” against him, citing Bolyard’s figure.
+
+Trump was using the statistic to validate speculation that technology companies are encoding anti-conservative bias into the architecture of their businesses. “Google & others are suppressing voices of Conservatives and hiding information and news that is good,” he added to his initial tweet.
+
+But by citing Bolyard’s anecdotal evidence as reliable data, he inadvertently revealed how the claim of anti-conservative bias is being spread through the media as conspiracy theory rather than verifiable fact.
+
+Since technology companies ensure that their content moderation practices remain undisclosed, there is no way of definitively proving that algorithmic anti-conservative bias exists from the outside. In the absence of evidence, hyper-partisan news outlets like PJ Media, Breitbart, the Daily Caller, and the Washington Examiner foreground stories of Silicon Valley being “hostile” towards conservatives – the firing of James Damore and Sergey Brin’s anti-Trump comments are favorite examples – and from this, infer a concerted suppression of conservative views through the companies’ technical infrastructure.
+
+
+The Creepy Line, a documentary released this year by the director MA Taylor and the former Breitbart editor Peter Schweizer, offers an extended exploration of this argument.
+
+The movie hinges on the research of the psychologist Robert Epstein, who since 2013 has published a number of studies demonstrating how search engines could be used to manipulate political opinion through ordering and filtering search results. Epstein calls this the “search engine manipulation effect”.
+
+While Epstein proposes that this effect could theoretically be used for any political agenda, an insidious subtext throughout the movie insinuates that this type of manipulation is explicitly being used in favor of Democrats and liberal causes.
+
+News headlines about anti-conservative bias at big tech companies flash across the screen. The film’s narrator, Peter Schweizer, makes provocative statements about how “these companies have a far deeper agenda than they want to let on” or how they are “governments trying to steer us towards some utopia”. Images of Barack Obama with Mark Zuckerberg and Eric Schmidt suddenly appear as Epstein describes how Google and Facebook could rig an election in favor of one candidate.
+
+ google logo
+ Donald Trump cited questionable figures in suggesting Google results were ‘RIGGED’ against him. Photograph: Spencer Platt/Getty Images
+Jordan Peterson, the controversial Canadian psychology professor, is given ample screen time to tell the story of how Google supposedly censored him for objecting to gender-neutral terminology. “When you’re powerful enough to change the political landscape, it isn’t a question of whether you want to if you can,” Peterson says. “It’s a question of: convince me that you’re not doing it.”
+
+This collage of impressions builds throughout the documentary to paint a picture of Google and Facebook as liberal silos that are antagonistic to conservative thought. Linking this to Epstein’s research implies that this ideology has a direct impact on how information is filtered and moderated.
+
+“The political leaning of the company usually wouldn’t matter to me,” Taylor, the movie’s director, told me. “No one cares how many Democrats work at Honda. But when you control the ebb and flow of information and have a political leaning that informs whether certain information should be out there or not, that’s when bias starts entering the conversation.”
+
+
+While the narrative of anti-conservative bias emerges from these right-leaning media sources, it is beginning to hit home with more mainstream audiences. In the past year, several Republican politicians have publicly questioned whether social media platforms skew their algorithms to discriminate against conservatives.
+
+Google, Facebook and Twitter have all emphatically denied any technological anti-conservative bias. While trust in these companies is justifiably low after recent scandals, Ari Ezra Waldman, director of the Innovation Center for Law and Technology at the New York Law School, says that there is “zero evidence” to suggest that they’re lying. “The fact that individual conservatives get less play or banned [from platforms] is not evidence of a pattern of bias,” he says. “Those are anecdotes, and anecdotes do not make a case.”
+
+For Francesca Tripodi, professor of sociology at James Madison University, anecdotal evidence of anti-conservative bias spreads as fact through the media in part because of a deep misunderstanding of how bias in search engines and content moderation practices work. “These algorithms are very complex and not at all intuitive,” she says. “They weigh things like how many people are linking to an article, what key words appear in the headline, and what specific phrases people are using in their search.
+
+ donald trump
+ If a search for ‘Trump’ returns mostly negative results, Tripodi says, it’s because most Google users are seeking or linking to such news items. Photograph: Kevin Lamarque/Reuters
+If you search for Donald Trump and receive mostly negative results, Tripodi explains, it isn’t because Google executives are censoring pro-Trump voices, but because most Google users are seeking or linking to this particular type of news item. “In other words, Google is biased but its bias skews towards the type of results people want to see. Search results are kind of like a public opinion poll about what news matters. The company depends on being good at measuring precisely this. If they weren’t, we wouldn’t keep using their services.”
+
+Tripodi, who published a report on media manipulation for the New York-based research institute Data & Society, also explains that so-called anti-conservative “censorship” on social media can often be explained by random glitches in moderation practices taking place at scale.
+
+This year, the conservative media company PragerU accused YouTube and Facebook of “deliberate censorship of conservative ideas” after a number of their videos were taken down. Tripodi reviewed several of the videos and found that there were plausible, non-ideologically motivated explanations for why they were removed.
+
+“One of the videos began with a woman saying the word ‘rape’. This might’ve been picked up by some automated system and then sent for review to a third-party moderator in the Philippines. When you only have three seconds to make a decision about content, you’re not questioning whether the video is promoting conservative views,” she says. “You’re mostly worried about the word ‘rape’.”
+
+Google, Facebook and other big tech companies have offered similar explanations when accused of anti-conservative bias and censorship, admitting that figuring out how to moderate and filter such enormous amounts of content is, as Jack Dorsey put it, “a work in progress”.
+
+“What we’re coming to realize is that these systems are not neutral and often amplify biases,” Tripodi says. “But this impacts all of us.” Indeed, faulty content moderation practices have affected many progressive causes. Activists associated with Black Lives Matter have been banned from platforms for calling out racism and LGBT activists have had videos referencing same-sex marriage filtered off YouTube.
+
+“A big part of this problem is that these processes are not transparent,” Tripodi says. “Maybe if we knew more about why content is promoted, removed, flagged, or demonetized, there would be less room for all of this counterproductive conjecture.”
+
+
+In the absence of transparency, the idea of anti-conservative bias thrives.
+
+In September, Alex Jones gatecrashed a congressional hearing where Republicans were questioning tech executives Jack Dorsey and Sheryl Sandberg about political bias on their platforms. Jones was protesting against his recent ban from YouTube and Facebook for spreading hate speech, including the conspiracy theory that the 2012 Sandy Hook elementary shooting had never happened.
+
+“The real election meddling is by Facebook and Google,” Jones said. “They are outright banning people and they are blocking conservatives involved in their own first amendment political speech.”
+
+ The radio host and conspiracy theorist Alex Jones speaks to the media outside of a Senate committee hearing with Twitter and Facebook executives.
+ The radio host and conspiracy theorist Alex Jones speaks to the media outside of a Senate committee hearing with Twitter and Facebook executives. Photograph: Jim Lo Scalzo/EPA
+As danah boyd explained in a speech given at the Online News Association conference a week after this outburst, Jones’s hate speech does not constitute conservative values. But he cynically manipulates the narrative of anti-conservative bias to give his online presence legitimacy under “the false flag of conservatism”.
+
+“It’s about using nominal conservatism as a cloak to promote toxic masculinity and white supremacy. It’s about extremists using conservatives,” she said. “Fundamentally, it’s a technique to grab power by gaslighting the public and making reality seem fuzzy.”
+
+The same tactic has been used by other far-right trolls including Mike Cernovich, Milo Yiannopoulos, and Laura Loomer (who also interrupted proceedings by beseeching Donald Trump to “save” conservatives from social media censorship).
+
+The strategy appears to be working. Social media companies have become more hesitant to ban users even if they flagrantly violate their terms of service out of fear of being painted as censors. And there has been an emergence of professed “alternative” social media platforms, like Gab, which promote themselves as bastions of free speech and havens for conservatives, while actually serving as a breeding ground for hate speech.
+
+Trump's Twitter tantrum: Google may be controlling, but it's not partisan
+ Read more
+Not all claims of anti-conservative bias are as straightforwardly malicious as Jones and co. When I spoke to Bolyard and Taylor, they both claimed that they were most concerned with how algorithmic bias could destabilize the democratic process. “No matter who you are, or how you lean politically, or what gender you are, the idea that one day the company can just point at you and say, you’re out, you’re gone – that’s not good for society,” Taylor told me.
+
+Yet, according to Safiya U Noble, a professor at the University of Southern California’s Annenberg School for Communication and Journalism, those spreading the narrative of anti-conservative bias without sufficient evidence have a responsibility to understand that their assertions do not exist in a political vacuum. “I think this is a nuanced issue,” she told me in an email. “But the claims about conservative bias don’t hold up given the rise of conservative and rightwing political power in modern democracies.”
+
+Noble’s broader point, which is laid out in her book Algorithms of Oppression, is that while all algorithmic systems are embedded with pre-existing social biases, these biases reinforce power and thus work against those who are systemically disenfranchised. She shows, for instance, how Google searches for “black girls” return a disproportionately high number of pornographic results.
+
+As Noble explains, unsubstantiated cries of anti-conservative bias distracts from these more pressing forms of algorithmic oppression. “We have to understand the values at play in these notions of conservative bias,” Noble says, “and understand this is nothing more than a red herring.”
