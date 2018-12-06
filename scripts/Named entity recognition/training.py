@@ -19,12 +19,13 @@ def get_dataset(start_index,end_index,corpus_root):
     file_path = "C:/Users/Vabs/DOPS/dops -not git/Data/GMB 2.2.0/ner_chunks.pickle"
     if(os.path.isfile(file_path)):
         file = open(file_path , 'rb')
-        iob_tokens = pickle.load(file)
+        gmb_tokens = pickle.load(file)
     else:
        gmb_tokens = read_gmb(corpus_root)
-       iob_tokens = to_iob_form(gmb_tokens)
        
-    iob_tokens = iob_tokens[start_index : end_index]
+
+    gmb_tokens = gmb_tokens[start_index : end_index]   
+    iob_tokens = to_iob_form(gmb_tokens)
     untagged_tokens = untag(iob_tokens)
     history_tokens = history(iob_tokens)
     X = transform_into_dataset(untagged_tokens ,history_tokens)
