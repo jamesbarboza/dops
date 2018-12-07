@@ -1,5 +1,6 @@
 import re
 import sys
+sys.path.append("../..")
 import nltk
 import string
 import os
@@ -18,7 +19,6 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.pipeline import Pipeline
 
-sys.path.append("..")
 
 import project_config.py as config
 from libs.models.File import File

@@ -1,3 +1,5 @@
+import sys
+sys.path.append("../..")
 import os
 import pickle 
 import collections
@@ -6,7 +8,7 @@ import features
 from classification import *
 
 from features import *
-sys.path.append("..")
+
 
 import project_config as config
 from libs.models.File import File
