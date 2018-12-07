@@ -1,4 +1,5 @@
 import re
+import sys
 import nltk
 import string
 import os
@@ -6,7 +7,7 @@ import os.path
 import collections
 import pickle
 import features
-import train
+import training
 
 from features import *
 from collections import Iterable
@@ -16,6 +17,17 @@ from nltk.tag import ClassifierBasedTagger
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.pipeline import Pipeline
+
+sys.path.append("..")
+
+import project_config.py as config
+from libs.models.File import File
+from libs.models.RawFile import RawFile
+
+from libs.nlp_engine.LexicalAnalyzer import LexicalAnalyzer
+from libs.nlp_engine.VoteClassifier import VoteClassifier
+
+
 
 
 #array [ 'IOB','IOB'] to (word , pos-tag ,IOB)
@@ -30,7 +42,7 @@ def to_standard_form(tokens,pos_tag,iob):
 class ObjectIdentifier():
     
     def __init__(self):
-        file_path = "C:/Users/Vabs/DOPS/dops -not git/Data/NER instances/classifier.pickle"
+        file_path = config.__poject_dir__+ "data/nlp_engine/ner_training/classifier.pickle"
         if(os.path.isfile(file_path)):
             classifier_file = open(file_path , "rb")
             clf = pickle.load(classifier_file)
@@ -53,7 +65,7 @@ class ObjectIdentifier():
     
     def train(self,X,Y):
         self.clf.fit(X,Y)
-        file_path = "C:/Users/Vabs/DOPS/dops -not git/Data/NER instances/classifier.pickle"
+        file_path = config.__poject_dir__+ "data/nlp_engine/ner_training/classifier.pickle"
         classifier_file = open(file_path,"ab")
         pickle.dump(self.clf,classifier_file)
         classifier_file.close()

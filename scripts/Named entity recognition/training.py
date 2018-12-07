@@ -4,7 +4,17 @@ import collections
 import classification
 import features
 from classification import *
+
 from features import *
+sys.path.append("..")
+
+import project_config as config
+from libs.models.File import File
+from libs.models.RawFile import RawFile
+
+from libs.nlp_engine.LexicalAnalyzer import LexicalAnalyzer
+from libs.nlp_engine.VoteClassifier import VoteClassifier
+
 
 
 
@@ -16,7 +26,7 @@ from features import *
 ner_tags = collections.Counter()
 
 def get_dataset(start_index,end_index,corpus_root):
-    file_path = "C:/Users/Vabs/DOPS/dops -not git/Data/GMB 2.2.0/ner_chunks.pickle"
+    file_path = config.__poject_dir__+ "data/nlp_engine/ner_training/ner_chunks.pickle"
     if(os.path.isfile(file_path)):
         file = open(file_path , 'rb')
         gmb_tokens = pickle.load(file)
