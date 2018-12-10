@@ -1,5 +1,5 @@
 
-__project_dir__ = "E:/work/dops-package/"
+__project_dir__ = "/home/vabs/projects/dops/"
 __training_dir__ = __project_dir__ + "data/nlp_engine/training"
 
 #MySQL Database
