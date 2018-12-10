@@ -4,12 +4,7 @@ import os
 import pickle 
 import collections
 import classification
-import features
 from classification import *
-
-from features import *
-
-
 import project_config as config
 from libs.models.File import File
 from libs.models.RawFile import RawFile
@@ -33,16 +28,14 @@ def get_dataset(start_index,end_index,corpus_root):
         file = open(file_path , 'rb')
         gmb_tokens = pickle.load(file)
     else:
-       gmb_tokens = read_gmb(corpus_root)
+     gmb_tokens = read_gmb(corpus_root)
        
 
     gmb_tokens = gmb_tokens[start_index : end_index]   
     iob_tokens = to_iob_form(gmb_tokens)
     untagged_tokens = untag(iob_tokens)
     history_tokens = history(iob_tokens)
-    X = transform_into_dataset(untagged_tokens ,history_tokens)
-    Y = history_tokens
-    return X,Y
+    return untagged_tokens,history_tokens
     
 
 #use the following method to read gmb 2.2.0 corpus
@@ -125,15 +118,6 @@ def history(iob_form):
 
 
 
-def transform_into_dataset(untagged_words,history):
-    X = []
-    Y = []
 
-    for count,tagged in enumerate(untagged_words):
-        
-        X.append(features(untagged_words,count,history))
-        
-        
-    return X
 
 
