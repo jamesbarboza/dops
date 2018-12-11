@@ -50,8 +50,8 @@ class ObjectIdentifier():
         history = []
         tokens = nltk.word_tokenize(sentence)
         tagged = nltk.pos_tag(tokens)
-        iob_tags = self.clf.predict([self.features(self,tagged,count,history) for count,gibberish in enumerate(tagged)])
-        complete_token = self.to_standard_form(self,tokens,tagged,iob_tags)
+        iob_tags = self.clf.predict([self.features(tagged,count,history) for count,gibberish in enumerate(tagged)])
+        complete_token = self.to_standard_form(tokens,tagged,iob_tags)
         return complete_token
 
     

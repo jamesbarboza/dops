@@ -41,9 +41,6 @@ class ConsecutiveNPChunker(nltk.ChunkParserI): # [_consec-chunker]
         conlltags = [(w,t,c) for ((w,t),c) in tagged_sents]
         return nltk.chunk.conlltags2tree(conlltags)
 
-def npchunk_features(sentence, i, history):
-    word, pos = sentence[i]
-    return {"pos": pos}
 
 def npchunk_features(sentence, i, history):
      word, pos = sentence[i]

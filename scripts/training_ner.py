@@ -1,5 +1,5 @@
 import sys
-sys.path.append("../..")
+sys.path.append("..")
 import os
 import pickle 
 import collections
@@ -21,7 +21,7 @@ from libs.nlp_engine.ObjectIdentifier import ObjectIdentifier
 ner_tags = collections.Counter()
 
 def get_dataset(start_index,end_index,corpus_root):
-    file_path = config.__poject_dir__+ "data/nlp_engine/ner_training/ner_chunks.pickle"
+    file_path = config.__project_dir__+ "data/nlp_engine/ner_training/ner_chunks.pickle"
     if(os.path.isfile(file_path)):
         file = open(file_path , 'rb')
         gmb_tokens = pickle.load(file)
