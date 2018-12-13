@@ -36,6 +36,10 @@ frequency_dist = nltk.FreqDist(all_words)
 
 word_features = list(frequency_dist.keys())[:5000]
 
+file = open(config.__project_dir__ + "data/nlp_engine/document_classifications/wordfeatures.pkl", "wb")
+pickle.dump(word_features, file)
+file.close()
+
 def find_features(doc_words):
 	features = {}
 	for word in word_features:
