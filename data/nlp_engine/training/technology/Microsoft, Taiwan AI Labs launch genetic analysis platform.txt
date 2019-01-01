@@ -1,0 +1,3 @@
+Microsoft, Taiwan AI Labs launch genetic analysis platform
+
+Microsoft Taiwan and Taiwan AI Labs have jointly launched an AI-based genetic analysis platform named TaiGenomics. The platform uses artificial intelligence to analyse large amounts of medical and genetic data taken from patients and hospitals. According to Microsoft, the platform could reduce human errors and help medical experts to diagnose or predict diseases more efficiently.

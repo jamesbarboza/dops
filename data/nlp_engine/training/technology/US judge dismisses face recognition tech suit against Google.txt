@@ -1,0 +1,3 @@
+US judge dismisses face recognition tech suit against Google
+
+A US judge dismissed a 2016 lawsuit which alleged Google violated Illinois state law by using facial recognition technology through Google Photos to collect users' biometric data without their permission. The judge supported the dismissal citing a lack of "concrete injuries". Illinois state law requires companies to obtain explicit permission from people to make biometric scans of their bodies.

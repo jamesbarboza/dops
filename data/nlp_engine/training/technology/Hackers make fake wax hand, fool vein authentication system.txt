@@ -1,0 +1,3 @@
+Hackers make fake wax hand, fool vein authentication system
+
+Security researchers at an annual hacking conference in Germany said they successfully defeated vein biometric authentication by creating a fake hand out of wax. The researchers took around 2,500 photos of a hand using an SLR camera after removing its infrared sensor to better highlight the veins. The authentication system was researched by hackers Jan Krissler and Julian Albrecht.

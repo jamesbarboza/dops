@@ -1,0 +1,3 @@
+MIT scientists develop new 3D-printing system for glass
+
+MIT scientists have developed a new system, G3DP2, for 3D-printing transparent glass on an industrial scale. The system consists of two parts including a closed, heated box which holds  molten glass, and another thermally controlled box where it prints the object. The scientists were able to convert molten glass into 3-metre-tall columns using the system.

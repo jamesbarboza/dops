@@ -1,0 +1,3 @@
+20 Android apps sending sensitive data to Facebook: Study
+
+According to a Privacy International study, at least 20 of 34 popular Android apps like TripAdvisor and Skyscanner send sensitive information to Facebook without users' permission. The shared information includes analytics data sent on launching the app like Android users' unique ID. This follows a previous report that said Facebook collected sensitive information from dating apps like Tinder.

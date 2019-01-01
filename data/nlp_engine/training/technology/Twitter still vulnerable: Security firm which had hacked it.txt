@@ -1,0 +1,3 @@
+Twitter still vulnerable: Security firm which had hacked it
+
+UK-based cybersecurity firm Insinia Security, which had recently hacked Twitter accounts of some celebrities to highlight a security flaw, has said users' accounts are still vulnerable to attacks. This comes after the microblogging platform had claimed it had fixed the flaw. The flaw could be used to "spread fake news and disinformation via influential celebrities and journalists," Insinia said.

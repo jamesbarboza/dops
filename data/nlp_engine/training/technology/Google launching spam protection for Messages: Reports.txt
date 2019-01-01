@@ -1,0 +1,3 @@
+Google launching spam protection for Messages: Reports
+
+Google has reportedly begun rolling out its spam protection feature for Messages app, after over six months of developing it for Android operating system. The change appears to be server-side and in a limited rollout for the time being, with users being prompted with the message, "New! Spam protection", reports said. Further, the feature can be disabled under 'Advanced' menu.

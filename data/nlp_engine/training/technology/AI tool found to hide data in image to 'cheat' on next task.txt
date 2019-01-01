@@ -1,0 +1,3 @@
+AI tool found to hide data in image to 'cheat' on next task
+
+A study by Stanford University and Google revealed that artificial intelligence (AI) tool CycleGAN was hiding information to cheat on another task it was assigned to do later. Information about a source image was hidden "into the images it generates in a nearly imperceptible, high-frequency signal". "Cyclic consistency loss causes CycleGAN to be...vulnerable to adversarial attacks," it added.
