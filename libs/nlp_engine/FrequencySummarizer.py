@@ -30,10 +30,16 @@ class FrequencySummarizer:
           freq[word] += 1
     # frequencies normalization and fitering
     m = float(max(freq.values()))
+    to_delete = []
     for w in freq.keys():
       freq[w] = freq[w]/m
       if freq[w] >= self._max_cut or freq[w] <= self._min_cut:
-        del freq[w]
+        #del freq[w]
+        to_delete.append(w)
+
+    for word in to_delete:
+      del freq[word]
+      
     return freq
 
   def summarize(self, text, n):
