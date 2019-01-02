@@ -10,7 +10,7 @@ sys.path.append("..")
 import project_config as config
 os.chdir(config.__training_dir__)
 
-category = "technology"
+category = "sports"
 domain = "https://inshorts.com"
 url = "https://inshorts.com/en/read/" + category
 
