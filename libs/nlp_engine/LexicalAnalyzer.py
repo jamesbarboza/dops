@@ -83,3 +83,15 @@ class LexicalAnalyzer:
                     antonyms.append(l.antonyms()[0].name())
 
         return antonyms
+
+    #   find hashtags in a given sentence
+    #   return empty list if no hashtag found
+    def findHashtags(self, sentence):
+        hashtags = []
+        words = nltk.word_tokenize(sentence)
+        for i in range(len(words)):
+            hashtag = ""
+            if words[i] == "#":
+                hashtag += words[i] + words[i+1]
+                hashtags.append(hashtag)
+        return hashtags
