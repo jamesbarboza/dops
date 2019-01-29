@@ -15,7 +15,11 @@ domain = "https://inshorts.com"
 url = "https://inshorts.com/en/read/" + category
 
 #	Read the page from the url
-html_page = urlopen(url).read()
+#html_page = urlopen(url).read()
+
+html_file = open("/home/xkid/projects/playground/data/inshorts_html", "r")
+html_page = html_file.read()
+html_file.close()
 
 #	Use the BeautifulSoup class to arrange and find tags
 soup = BeautifulSoup(html_page, "html.parser")
