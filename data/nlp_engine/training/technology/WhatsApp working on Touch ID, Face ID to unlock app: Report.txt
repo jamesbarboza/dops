@@ -1,0 +1,3 @@
+WhatsApp working on Touch ID, Face ID to unlock app: Report
+
+WhatsApp is reportedly working on a feature to add Touch ID and Face ID authentication to unlock the messaging app. The feature, which is under development, will be available in Privacy Settings, under 'Touch ID', reports claimed. The iPhones using iOS 8 or more are expected to have Touch ID while iPhone X, XR, and others would include Face ID.

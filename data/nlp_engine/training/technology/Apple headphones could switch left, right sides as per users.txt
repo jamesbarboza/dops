@@ -1,0 +1,3 @@
+Apple headphones could switch left, right sides as per users
+
+A patent filed by Apple suggests that the company is making over-ear headphones which might be reversible. The patent describes headphones with a cluster of five microphones in each ear cup to determine how users wear the headphones. Comparing the inputs, the headphones would automatically adjust which ear cup is the right or left.

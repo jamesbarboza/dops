@@ -1,0 +1,3 @@
+Amazon’s new AI service extracts data from medical records
+
+Amazon on Tuesday introduced an artificial intelligence-based cloud service called Amazon Comprehend Medical that extracts key data from medical records. It uses machine learning and text analysis to read prescriptions, audio interviews and test reports. It then organises data about diagnosis, treatments, medical dosage and symptoms in a report for use by healthcare professionals and patients.

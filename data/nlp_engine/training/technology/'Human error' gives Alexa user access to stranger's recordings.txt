@@ -1,0 +1,3 @@
+'Human error' gives Alexa user access to stranger's recordings
+
+A user of Amazon's Alexa in Germany got access to 1,700 audio files from another user due to a "human error". The customer asked for recordings of his activities but was also able to access recordings from a stranger when Amazon sent him a link. On the recordings, a man and a female companion could be overheard in their home.

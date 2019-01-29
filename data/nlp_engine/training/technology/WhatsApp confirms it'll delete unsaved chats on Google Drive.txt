@@ -1,0 +1,3 @@
+WhatsApp confirms it'll delete unsaved chats on Google Drive
+
+WhatsApp has confirmed it would delete all the chats and data that have not been backed up on Google Drive. Earlier, WhatsApp had announced that the backups that have not been updated in more than one year will be automatically removed from Google Drive storage. It recommended users to backup their data before November 12 to avoid loss of data.

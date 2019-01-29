@@ -1,0 +1,3 @@
+WhatsApp to rank users' contacts based on chat frequency
+
+WhatsApp has rolled out a Ranking feature in iOS beta which will automatically rank users' contacts based on the frequency of chats. According to WABetaInfo, the data will be used in the Status section of the app and monitor users' activity with friends. The feature will arrange the contact list by pushing the high-ranking friends' status updates to the top. 

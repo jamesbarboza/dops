@@ -1,0 +1,3 @@
+Google blocks gendered pronouns from AI tool to avoid bias
+
+Google has blocked gender-based pronouns like "him" or "her" in its new AI tool Smart Compose to avoid predicting someone's sex or gender identity incorrectly. The block affects less than 1% of cases where Smart Compose would propose something, Gmail product manager Paul Lambert said. "The only reliable technique we have is to be conservative," another Google executive said.

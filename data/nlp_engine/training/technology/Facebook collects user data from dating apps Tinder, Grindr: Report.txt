@@ -1,0 +1,6 @@
+Facebook collects user data from dating apps Tinder, Grindr: Report
+
+
+Facebook collected user data from apps like Tinder, Grindr, and OkCupid as per a report by German company Mobilsicher. The data reportedly included users' dating profiles and healthcare information and was collected via Facebook’s Software Development Kit that lets users log in to third-party apps with Facebook. The report said data could also be collected from users without Facebook accounts.
+
+

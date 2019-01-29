@@ -1,0 +1,3 @@
+Solar cell generating hydrogen, electricity at same time made
+
+Researchers have developed a solar cell that uses an artificial photosynthesis system to generate hydrogen fuel and electricity at the same time. The silicon component in the cell splits the current produced by the sunlight's energy, and allowing it to split the water in hydrogen, oxygen, and electricity. According to the researchers, the device has a combined efficiency of 20.2%.

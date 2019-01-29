@@ -1,0 +1,3 @@
+IIT Roorkee makes system to alert people a min before quake
+
+Scientists at IIT Roorkee have claimed to develop a warning system that alerts people up to a minute before an earthquake strikes. It consists of a network of sensors that detect seismic waves travelling through the Earth's layers after a quake and activates on detecting tremors higher than 6.0 magnitude. The system is already deployed in some areas of Uttarakhand.

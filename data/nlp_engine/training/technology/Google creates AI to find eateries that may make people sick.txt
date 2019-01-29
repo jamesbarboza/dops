@@ -1,0 +1,3 @@
+Google creates AI to find eateries that may make people sick
+
+Researchers from Google and Harvard have developed an AI-based system named FINDER that can identify restaurants that could give people food poisoning. The system, which was tested in Chicago and Las Vegas, uses search and location history to identify lapses in food safety in real time. Of all the restaurants identified by FINDER, 52.3% were deemed unsafe, the researchers said.  

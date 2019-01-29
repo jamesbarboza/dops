@@ -1,0 +1,3 @@
+MIT test flies 1st plane with no moving parts, fuel, battery
+
+A team of engineers from MIT has built and flown the first-ever plane with no moving parts, fuel or battery. Weighing about 2 kilograms with a five-metre wingspan, the aircraft is powered by ion wind propulsion. Such ion wind propulsion systems could be used to fly less noisy drones, the team said. 

@@ -1,0 +1,3 @@
+Facebook Messenger to get WhatsApp-like 'delete' feature 
+
+Facebook Messenger will soon allow its users to unsend a message from a chat, the company confirmed. While WhatsApp allows users to delete a sent message in over an hour of sending it, Facebook Messenger will let users unsend messages within 10 minutes of sending. The feature was listed in the release notes for Facebook Messenger's iOS update.

@@ -1,0 +1,3 @@
+Small flying robots that can pull 40 times their weight made
+
+Researchers have developed small flying robots called FlyCroTugs that can pull objects up to 40 times their weight. FlyCroTugs have been modified so they can anchor themselves to various surfaces using adhesives inspired by the feet of lizards and insects. The researchers said the FlyCroTugs' small size allows them to navigate through small spaces, making them useful for rescue purposes.

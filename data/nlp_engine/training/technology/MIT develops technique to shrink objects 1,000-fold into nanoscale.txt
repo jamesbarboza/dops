@@ -1,0 +1,3 @@
+MIT develops technique to shrink objects 1,000-fold into nanoscale
+
+MIT engineers have devised a way to create 3D nanoscale structures by shrinking objects to one-thousandth of their original volume (10-fold reduction in each dimension). In the technique called 'Implosion Fabrication', a larger structure made of expanded hydrogel can be shaped with lasers and then shrunk. This allows creating desired 3D objects with nanoscale precision, said a researcher.

@@ -1,0 +1,3 @@
+FDA gives approval to app-connected digital inhaler 
+
+The US Food and Drug Administration (FDA) has given its approval to app-connected digital inhaler ProAir Digihaler. The device uses inbuilt sensors to detect when the inhaler is used and measure the strength of the user's inhalation. It then sends this data to a companion application on the user's mobile phone using wireless Bluetooth technology. 

@@ -1,0 +1,3 @@
+WhatsApp launches Picture-in-Picture feature for Web version
+
+Facebook-owned messaging platform WhatsApp's desktop version WhatsApp Web has launched the Picture-in-Picture (PiP) feature, which lets users watch videos while simultaneously using the platform. The feature opens up shared video links from third-party apps like YouTube, Facebook and others in a video box that hovers above the chats. The PiP mode was recently launched on the Android app too.

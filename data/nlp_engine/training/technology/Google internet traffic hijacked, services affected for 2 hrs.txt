@@ -1,0 +1,3 @@
+Google internet traffic hijacked, services affected for 2 hrs
+
+Google on Monday confirmed that its internet traffic was hijacked and re-routed through Russia and China, affecting its services for almost two hours. The company said that the cause was "external to Google" and will conduct an internal investigation of the issue. Google further added that no data was compromised as the network traffic to Google services is encrypted.

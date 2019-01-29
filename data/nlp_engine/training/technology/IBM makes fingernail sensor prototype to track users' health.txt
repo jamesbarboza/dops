@@ -1,0 +1,3 @@
+IBM makes fingernail sensor prototype to track users' health
+
+IBM has developed an AI-based wearable fingernail sensor prototype that can help monitor human health. The wireless device uses an array of strain gauges to detect users' grip strength while conducting tasks like opening a jar or writing. It then sends this data to a smartwatch which uses machine learning to detect symptoms of diseases like Parkinson's.

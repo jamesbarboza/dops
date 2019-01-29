@@ -22,8 +22,14 @@ class Listener(StreamListener):
 		timestamp = datetime.datetime.now()
 		today = timestamp.strftime('%d%m%y')
 
+		#category = "business"
+		category = "economy"
+		#category = "entertainment"
+		#category = "finance"
 		#category = "politics"
-		category = "business"
+		#category = "random"
+		#category = "sports"
+		#category = "tech"
 		
 		path = config.__training_dir__ + 'hashtags/' + category + '/' + today
 
@@ -34,7 +40,7 @@ class Listener(StreamListener):
 				file.close()
 				file = open(path, "wb")
 				for hashtag in hashtags:
-					if not hashtag in data:
+					if not hashtag.lower() in data:
 						data.append(hashtag.lower())
 						print(hashtag)
 				pickle.dump(data, file)
@@ -56,5 +62,15 @@ twitter_stream = Stream(auth, Listener())
 
 #keywords = ["USA", "Donald Trump", "Mauro Viale", "politics"]
 #keywords = [ "USA", "politics"]
-keywords = [ "USA", "business"]
+
+
+#keywords = [ "USA", "business"]
+keywords = [ "USA", "economy"]
+#keywords = [ "USA", "entertainment"]
+#keywords = [ "USA", "finance"]
+#keywords = [ "USA", "politics"]
+#keywords = [ "USA", "random"]
+#keywords = [ "USA", "sports"]
+#keywords = [ "USA", "tech"]
+
 twitter_stream.filter(track=keywords)

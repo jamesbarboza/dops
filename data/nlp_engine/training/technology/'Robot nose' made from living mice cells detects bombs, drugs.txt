@@ -1,0 +1,3 @@
+'Robot nose' made from living mice cells detects bombs, drugs
+
+Scientists have developed an artificial 'robot nose' device made from living mice cells that could be used to detect bombs and drugs. The prototype was developed based on odour receptors grown from the genes of mice that respond to target odours. Further, the scientists plan to fine-tune the device to test all receptors against many different smells.

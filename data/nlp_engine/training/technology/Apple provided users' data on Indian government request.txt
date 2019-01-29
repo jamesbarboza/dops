@@ -1,0 +1,4 @@
+Apple provided users' data on Indian government request
+
+
+Apple, in a transparency report for the January-June 2018 period, said that it shared users' data on the Indian government's request. The requests, in formats like subpoenas and warrants, sought information on 27 devices, 18 accounts, and 34 financial identifiers. The high number of accounts and financial identifiers requests was majorly attributed to an iTunes Gift Card fraud investigation. 

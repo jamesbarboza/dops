@@ -1,0 +1,3 @@
+Quora says hackers stole data of up to 100 million users
+
+Question-and-answer website Quora on Monday said it discovered last week that hackers stole data of up to 100 million users possibly including usernames, email addresses, and an encrypted version of their passwords. The company admitted that data from other linked social networks could also be compromised. "We're sorry for any concern or inconvenience this may cause," CEO Adam D'Angelo said.

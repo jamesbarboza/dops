@@ -1,0 +1,3 @@
+Google Maps lets users share Live location for bus, train trips
+
+Google has rolled out a feature for Maps which allows users to share their real-time location with family or friends while travelling on the bus or train. Users can access the feature by tapping on the 'Share Trip progress' after starting the navigation. The location can also be shared with anyone using third-party apps such as Facebook Messenger and WhatsApp.

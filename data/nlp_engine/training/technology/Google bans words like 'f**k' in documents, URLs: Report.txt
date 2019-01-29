@@ -1,0 +1,3 @@
+Google bans words like 'f**k' in documents, URLs: Report
+
+Google has reportedly banned the use of words like 'f**k' and other references to sex acts in internal documents and URLs in the company. "They grep all the links for swear words and just delete them," a software engineer at Google said. The ban comes months after Google management issued new guidelines for employees' behaviour within the company. 

@@ -1,0 +1,3 @@
+Google adds Flights feature to Assistant to predict delays
+
+Google on Monday announced it added a feature to its AI-based Assistant which predicts flight delays. The feature debuted on Google Flights in January 2018 to predict possibilities of delay if at least 85% of the results indicated the flight would get delayed. The feature will be available to all users globally in the next few weeks, Google said.

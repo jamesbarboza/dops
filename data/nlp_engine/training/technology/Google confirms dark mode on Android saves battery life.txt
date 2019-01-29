@@ -1,0 +1,3 @@
+Google confirms dark mode on Android saves battery life
+
+Google, at a recent event, confirmed that the dark mode on Android phones uses less power and saves battery life. The brightness affects battery life with white colour drawing the most power, the company said. Google also showed how dark mode can use 43% less power at full brightness than 'normal mode' in the YouTube app.

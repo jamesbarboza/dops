@@ -1,0 +1,3 @@
+AI-based system that can create fake fingerprints developed
+
+American researchers have developed an AI-based system that can produce fake fingerprints by copying a range of partial fingerprints. The AI-generated fingerprints, named 'DeepMasterPrints', can bypass biometric identification systems, the researchers claimed. The DeepMasterPrints replicated 23% of fingerprints in a system that supposedly has an error rate of one in a thousand.

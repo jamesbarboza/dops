@@ -1,0 +1,3 @@
+IITians develop app to prevent deaths while taking selfies
+
+A team from Indian Institute of Technology (IIT) Ropar has developed an artificial intelligence-based app 'Garuda' to prevent deaths while taking selfies. The team collected 11,000 images labelled for different levels of danger and embedded them in the app's deep learning module. It works by analysing the environment around the smartphone and sends alerts to users in cases of danger.

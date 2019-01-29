@@ -1,0 +1,3 @@
+IIT-Madras researchers design India's 1st microprocessor 'Shakti'
+
+Indian Institute of Technology Madras researchers have designed India's first indigenously developed microprocessor which could be used for mobile computing systems, defence and nuclear sectors. The 'Shakti' family of processors was fabricated at ISRO's Chandigarh semi-conductor laboratory, making it the first 'RISC V Microprocessor' to be completely designed and made in India, IIT Madras said.

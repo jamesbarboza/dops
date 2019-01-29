@@ -1,0 +1,3 @@
+Facebook fixes bug that showed users old messages as new
+
+After several users complained about old messages resurfacing on Facebook Messenger, the social media giant has said that it has fixed the bug. "The issue, caused by software updates, has been fully resolved. We’re sorry for any inconvenience," Facebook said. The bug caused years-old conversations to appear in the Messenger tab on the platform like new unread chats. 

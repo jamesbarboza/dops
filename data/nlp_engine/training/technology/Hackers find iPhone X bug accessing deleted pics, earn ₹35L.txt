@@ -1,0 +1,3 @@
+Hackers find iPhone X bug accessing deleted pics, earn ₹35L
+
+Two hackers have earned a bounty of ₹35 lakh for finding an iPhone X bug that gives access to deleted photos or files.They believe it could be deployed through a malicious WiFi access point, and accessed via just-in-time (JIT) compiler which helps iPhones run faster. The bug was discovered at a contest for hackers to find iOS and Android bugs.

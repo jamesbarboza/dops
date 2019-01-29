@@ -1,0 +1,3 @@
+Instagram introduces new tools for visually impaired users
+
+Instagram has introduced two new features to make it easier for visually impaired people to use its app. Object recognition-based automatic alternative text feature will let visually impaired readers hear descriptions of photos through screen readers. It's also introducing custom alternative text that will let users add descriptions of photos that people using screen readers will be able to hear. 

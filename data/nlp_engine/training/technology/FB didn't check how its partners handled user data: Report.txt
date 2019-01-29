@@ -1,0 +1,3 @@
+FB didn't check how its partners handled user data: Report
+
+Facebook failed to monitor its partners or the device makers to whom it granted access to the personal data of its users, according to a report by The New York Times. The oversight was reportedly identified by a government-approved privacy monitor in 2013 but was never revealed. Earlier, Facebook admitted it shared user data with companies including Microsoft and Apple.

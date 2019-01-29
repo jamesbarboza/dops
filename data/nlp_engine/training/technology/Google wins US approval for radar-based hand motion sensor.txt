@@ -1,0 +1,3 @@
+Google wins US approval for radar-based hand motion sensor
+
+US' Federal Communications Commission (FCC) in an order on Monday said it would allow Google to operate its radar-based hand motion sensor, Project Soli. The sensor, which can be embedded in wearables, phones and computers, uses radio frequencies to track human hand gestures. FCC said the sensor could benefit users with mobility or speech impairments.

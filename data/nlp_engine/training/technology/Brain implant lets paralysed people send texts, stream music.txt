@@ -1,0 +1,3 @@
+Brain implant lets paralysed people send texts, stream music
+
+Researchers in the US have developed a system called 'BrainGate2' that lets people with neurologic disease or limb loss communicate with unmodified computer tablets. The system involves microelectrodes implanted into the brain which decode neural signals associated with the intention to move a limb in real time. It lets people with neurologic disease perform tasks like texting or streaming music. 

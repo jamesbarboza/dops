@@ -1,0 +1,3 @@
+SoftBank Robotics unveils autonomous cleaning robot 'Whiz'
+
+SoftBank Robotics has unveiled an autonomous cleaning robot called 'Whiz'  for offices and businesses. Weighing around 32 kg, the self-driving robot comes with a handle to learn the layout of the space that needs cleaning. It also comes with a 3D camera, abnormality detection and collision sensors, and a battery that can last as long as 3 hours.

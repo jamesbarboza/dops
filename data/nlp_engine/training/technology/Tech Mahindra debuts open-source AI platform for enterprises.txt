@@ -1,0 +1,3 @@
+Tech Mahindra debuts open-source AI platform for enterprises
+
+Software services provider Tech Mahindra has launched an open-source artificial intelligence (AI) platform GAiA for enterprises, powered by The Linux Foundation's project Acumos. "GAiA will enable enterprises across industry verticals to build, share and rapidly deploy AI-driven services and applications," the company said. The platform is currently available in Beta mode, Tech Mahindra added.

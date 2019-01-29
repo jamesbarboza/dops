@@ -1,0 +1,3 @@
+Two App Store fitness apps use Touch ID to scam users
+
+Two fitness apps on the App Store 'Fitness Balance' and 'Calories Tracker' were using Touch ID to scam users, according to a security researcher who reported the apps. They asked users to "scan" their fingerprint for health data and hold it for ten seconds. While this was happening, an in-app purchase popped up, which was authenticated via the Touch ID. 

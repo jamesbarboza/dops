@@ -1,0 +1,3 @@
+IIT Kharagpur makes tool to filter fake news on disasters
+
+The Indian Institute of Technology Kharagpur has developed an artificial intelligence (AI) tool to filter fake news about natural disasters on social media platforms like Facebook. One of the researchers working on the tool said it is capable of distinguishing fake news from real with 90% accuracy. The tool can also alert users in the time of disasters through algorithms.

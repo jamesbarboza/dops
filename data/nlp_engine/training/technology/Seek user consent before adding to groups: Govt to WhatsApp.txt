@@ -1,0 +1,3 @@
+Seek user consent before adding to groups: Govt to WhatsApp
+
+Ministry of Electronics and Information Technology has asked Facebook-owned messaging platform WhatsApp to roll out a new feature to seek users' consent before adding them to chat groups. This comes after several users complained of being added to groups without their consent. WhatsApp previously rolled out a feature that stopped admins from adding users who have left the group twice.
