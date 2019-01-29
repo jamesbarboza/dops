@@ -22,6 +22,8 @@ class Listener(StreamListener):
 
 	def on_error(self, status):
 		print(status)
+		if status == 420:
+			return False
 
 auth = OAuthHandler(config.capi, config.capi_secret)
 auth.set_access_token(config.ctoken, config.ctoken_secret)

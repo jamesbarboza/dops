@@ -3,14 +3,13 @@ sys.path.append("..")
 import os
 import pickle 
 import collections
-import project_config as config
 from libs.models.File import File
 from libs.models.RawFile import RawFile
 
 from libs.nlp_engine.LexicalAnalyzer import LexicalAnalyzer
 from libs.nlp_engine.VoteClassifier import VoteClassifier
 from libs.nlp_engine.ObjectIdentifier import ObjectIdentifier
-
+from project_config import *
 
 
 #converting GMB corpus's token into compatible nltk tokens for training

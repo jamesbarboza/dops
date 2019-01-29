@@ -2,7 +2,8 @@ import nltk
 import math 
 from nltk import word_tokenize,sent_tokenize
 from nltk.probability import FreqDist
-
+from nltk.corpus import wordnet
+import re
 import sys
 import project_config as config
 from libs.models.Dictionary import Dictionary
@@ -51,3 +52,46 @@ class LexicalAnalyzer:
 
     def frequencyDistribution(self):
         return FreqDist(self.toWords())
+
+    #   get synonym of a particular word
+    def getSynonym(self, word, pos):
+        synonyms = []
+        syn_name = word + "." + pos
+        synsets = wordnet.synsets(word)
+        similarity_score = 0
+        synset_names = []
+        for syn in synsets:
+            synset_name = str(syn.name())
+        
+        for syn in syns:
+            syn_score = synset.wup_similarity(str(syn.name()))
+            if syn_score > score:
+                score = syn_score
+                synonyms = [l.name() for l in s.lemmas()]
+
+        return synonyms
+        
+
+    #   get antonyms of a particular word
+    def getAntonym(self, word):
+        antonyms = []
+
+        syns = wordnet.synsets(word)
+        for s in synsets:
+            for l in s.lemmas():
+                if l.antonyms():
+                    antonyms.append(l.antonyms()[0].name())
+
+        return antonyms
+
+    #   find hashtags in a given sentence
+    #   return empty list if no hashtag found
+    def findHashtags(self, sentence):
+        hashtags = []
+        words = nltk.word_tokenize(sentence)
+        for i in range(len(words)):
+            hashtag = ""
+            if words[i] == "#":
+                hashtag += words[i] + words[i+1]
+                hashtags.append(hashtag)
+        return hashtags
