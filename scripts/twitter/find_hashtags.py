@@ -35,7 +35,7 @@ class Listener(StreamListener):
 				file = open(path, "wb")
 				for hashtag in hashtags:
 					if not hashtag in data:
-						data.append(hashtag)
+						data.append(hashtag.lower())
 						print(hashtag)
 				pickle.dump(data, file)
 				file.close()
