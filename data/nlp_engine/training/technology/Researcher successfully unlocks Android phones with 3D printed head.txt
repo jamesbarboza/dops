@@ -1,0 +1,3 @@
+Researcher successfully unlocks Android phones with 3D printed head
+
+A researcher successfully unlocked four Android smartphones using a 3D printed life-size human head. An iPhone X was the only phone that defended against the attack while the Android phones just displayed warnings about the insecurity of facial recognition. “The reality with any biometrics is that they can be copied,” cybersecurity firm NCC Group's Research Director Matthew Lewis said.

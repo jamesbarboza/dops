@@ -1,0 +1,3 @@
+AI system that can detect food safety using stickers made
+
+MIT researchers have developed an AI-based system that can detect the quality and safety of food items. The system uses Radio-Frequency Identification (RFID) tags or stickers with tiny, ultra-high-frequency antennas on several products to sense potential food contamination. It detected fake baby milk powder with 96% accuracy, the researchers said. 

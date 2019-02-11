@@ -1,0 +1,3 @@
+Paytm shuts down in-app chat citing high scaling costs
+
+Paytm has removed its in-app messaging feature from Inbox as it "wasn’t going to scale without a ton of cost" according to Founder Vijay Shekhar Sharma. "Problem is to decide where to stop building feature or scale," Sharma added. He further said, "Inbox is there and it ...now has news, video and gaming,” Sharma added

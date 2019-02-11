@@ -1,0 +1,3 @@
+Drones that can search people lost in forests without GPS made
+
+A research team from MIT and NASA has developed drone-technology that can be used to search and rescue people in dense forests without using GPS. Using onboard computation and wireless communication, the drones create an individual 3-D map of the terrain. The technology enables drones to recognise explored and unexplored territories within forests. 

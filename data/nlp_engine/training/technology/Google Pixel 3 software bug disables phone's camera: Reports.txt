@@ -1,0 +1,3 @@
+Google Pixel 3 software bug disables phone's camera: Reports
+
+Several users have reported a software glitch in Google Pixel 3 which disables the smartphone's camera. Users reported getting a "fatal error" and "can't connect to the camera" error even with third-party apps, adding, rebooting or Safe Mode only fixed the issue temporarily. This comes after Pixel 3 users also reported issues with audio, extra notch, and missing text messages.

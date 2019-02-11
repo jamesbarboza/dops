@@ -1,0 +1,3 @@
+K'taka develops tech to check farm loan waiver malpractices
+
+The Karnataka government has developed a software to check misuse of the farm loan waiver. The software will match the Aadhaar data with UIDAI, ration card with food department data and pull out land record details from the Bhoomi portal, as per an official. The software aims to bypass manual interferences in list preparation and thus reduce malpractices.

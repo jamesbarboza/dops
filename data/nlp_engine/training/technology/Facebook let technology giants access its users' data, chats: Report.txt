@@ -1,0 +1,3 @@
+Facebook let technology giants access its users' data, chats: Report
+
+Facebook reportedly gave tech giants like Microsoft, Yahoo and Amazon access to user data through partnerships with them that exempted them from privacy restrictions. Microsoft's Bing could see the names of the friends of all Facebook users without consent and music app Spotify could read users' private messages. Amazon could access users’ contact information and Yahoo could see users’ feeds.

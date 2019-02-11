@@ -1,0 +1,3 @@
+Microsoft Azure launches Virtual Assistant Accelerator 
+
+Microsoft Azure recently launched the Virtual Assistant Accelerator, which promises to develop conversational bots to enhance personalised content delivery across multiple devices. Talking about this technology at Trescon’s World AI Show, Microsoft said, “We are unlocking the power of AI to amplify human ingenuity and develop the overall national capabilities and economy."

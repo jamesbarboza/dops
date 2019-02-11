@@ -1,0 +1,3 @@
+Google AI listens to 19yrs of underwater audio to spot whales
+
+Google has partnered with National Oceanic and Atmospheric Administration (NOAA) to train its artificial intelligence (AI) system to listen around 19 years of underwater audio recordings to spot humpback whales. The recordings were collected from hydrophones placed on the ocean floor at 12 sites. The move allowed the researchers to track where the whales are and where they are going.

@@ -1,0 +1,3 @@
+IIT-Hyderabad making phone sensors to spot milk adulteration
+
+Researchers from IIT-Hyderabad are developing a smartphone-based sensor system to detect adulteration in milk. They created an indicator paper that uses sensors to measure the acidity of milk and changes colour accordingly. Further, the team developed algorithms that can be incorporated on to a smartphone and can analyse the colour of the sensor strips captured using the phone's camera. 

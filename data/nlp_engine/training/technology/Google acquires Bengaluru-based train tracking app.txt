@@ -1,0 +1,3 @@
+Google acquires Bengaluru-based train tracking app
+
+Google has acquired Bengaluru-based Sigmoid Labs, which runs offline train tracking app ‘Where is My Train’, for an undisclosed amount. Google was reportedly in talks to acquire the startup in August for $30-40 million. Where is My Train offers offline integration of Indian Railways and IRCTC timetables using cell-tower information to locate trains and lets users browse through seat/berth layouts.

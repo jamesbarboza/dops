@@ -1,0 +1,3 @@
+ 3D-printed robotic hand which can play piano made
+
+Researchers at University of Cambridge have created a 3D-printed robotic hand which can play simple musical phrases on the piano. It was made using soft and rigid materials to replicate bones and ligaments of a human hand. "We can extend this research to...achieve even more complex manipulation tasks: developing robots which can perform medical procedures," a researcher said.

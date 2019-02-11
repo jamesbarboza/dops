@@ -1,0 +1,3 @@
+Apple iOS 12.1.2 cuts off iPhones' cellular network: Report
+
+Apple's newest software update, iOS 12.1.2 has reportedly caused cellular connectivity issues for iPhone users globally. Users have complained that they were unable to make calls or send messages after updating their phones. The technology giant had issued the latest update to fix a problem with network connectivity for iPhone users in Turkey.

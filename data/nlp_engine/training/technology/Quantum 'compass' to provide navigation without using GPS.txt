@@ -1,0 +1,3 @@
+Quantum 'compass' to provide navigation without using GPS
+
+Scientists in the UK have demonstrated a "commercially viable" quantum accelerometer or 'compass' that could provide navigation without GPS or other satellite technology. The device uses lasers to cool atoms to extremely low temperatures, and then measures their quantum wave properties as they respond to acceleration. Currently, it is ready to use for ships, trains and other large vehicles only.

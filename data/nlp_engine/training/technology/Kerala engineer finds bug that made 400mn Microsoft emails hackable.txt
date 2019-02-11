@@ -1,0 +1,3 @@
+Kerala engineer finds bug that made 400mn Microsoft emails hackable
+
+A Kerala-based application security engineer named Sahad Nk has won a bug bounty from Microsoft for discovering a bug that  left over 400 million Microsoft accounts, including Office 365 and Outlook emails, open to hacking. Sahad reported the bug to Microsoft, which fixed the vulnerability. "The Microsoft Security Response Center mitigated the case in November 2018," a Microsoft spokesperson said.

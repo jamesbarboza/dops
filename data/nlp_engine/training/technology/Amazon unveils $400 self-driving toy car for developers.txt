@@ -1,0 +1,3 @@
+Amazon unveils $400 self-driving toy car for developers
+
+Amazon's cloud unit has unveiled a $400 self-driving toy car, AWS DeepRacer, to let web developers test their self-driving technology. Users can train and alter machine learning models in an online simulator and test drive them. The car, which is one-eighteenth the size of a real race car, includes a 4 MP camera and battery power of about two hours.

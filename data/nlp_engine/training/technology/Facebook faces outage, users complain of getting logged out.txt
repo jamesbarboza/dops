@@ -1,0 +1,3 @@
+Facebook faces outage, users complain of getting logged out
+
+Facebook on Wednesday faced an outage as many users in Europe and India were involuntarily logged out and were subsequently unable to login. Facebook showed an error in users' passwords and prompted them to reset their passwords by receiving a code in their email, which reportedly did not work. According to a report, the problem has now been fixed. 

@@ -1,0 +1,3 @@
+Indian team's AI finds people in videos via clothes, height
+
+Indian researchers have created an artificial intelligence (AI) tool that can find people in videos using their description including clothing, height and gender. They used deep learning to train the AI to recognise human features called soft biometrics, using computer vision. The AI, without facial recognition technology, correctly identified 28 persons out of 41 with soft biometric attributes.

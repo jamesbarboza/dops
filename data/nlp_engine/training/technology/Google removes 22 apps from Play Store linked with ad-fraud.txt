@@ -1,0 +1,3 @@
+Google removes 22 apps from Play Store linked with ad-fraud
+
+Google has removed 22 apps from its Play Store after an investigation by cybersecurity firm Sophos claimed that the apps were malicious and had a backdoor to help them commit ad-fraud. "These apps drain (users') phone’s battery and may cause data overages...and can potentially install any malicious modules," Sophos said. These apps were reportedly downloaded over two million times collectively.

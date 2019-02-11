@@ -1,0 +1,3 @@
+Google ends unlimited free storage for some video formats
+
+Google's image and video storage service Google Photos has announced that certain video formats will no longer be supported by the platform. The technology giant said unsupported videos uploaded after December 6 will be counted in its storage quota. It further added that restricting Google Photos from automatically compressing content will also result in taking up the storage quota.

@@ -1,0 +1,3 @@
+Facebook patents tech to predict users’ future location
+
+Facebook has filed patents with the US Patent and Trademark Office for technology that uses location data to predict where users are going and when they will be offline. This is based on a user’s previously logged location data and location data of other users. It will use the location’s network coverage data to pre-load News Feed for offline users.

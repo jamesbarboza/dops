@@ -91,7 +91,10 @@ class LexicalAnalyzer:
         words = nltk.word_tokenize(sentence)
         for i in range(len(words)):
             hashtag = ""
-            if words[i] == "#":
-                hashtag += words[i] + words[i+1]
-                hashtags.append(hashtag)
+            try:
+                if words[i] == "#":
+                    hashtag += words[i] + words[i+1]
+                    hashtags.append(hashtag)
+            except:
+                print("error has occurred")
         return hashtags

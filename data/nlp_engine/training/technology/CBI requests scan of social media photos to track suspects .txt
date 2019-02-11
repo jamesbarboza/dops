@@ -1,0 +1,3 @@
+CBI requests scan of social media photos to track suspects 
+
+CBI issued a notice requesting social media platforms like Facebook and Twitter to use Microsoft-owned technology PhotoDNA to scan photos in order to track suspects for investigative purposes. PhotoDNA creates a digital signature of an image, scans it against other photos on the internet and flags related images. It is a free technology exclusively used in child exploitation cases.

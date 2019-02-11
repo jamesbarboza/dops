@@ -1,0 +1,3 @@
+Smart bracelet detects epilepsy seizures with 85% accuracy
+
+Scientists from the Netherlands have developed a new smart bracelet called Nightwatch that can detect severe night-time epilepsy seizures with 85% accuracy. The bracelet features a heart rate sensor and a motion sensor to monitor unusually high heart rate and rhythmic jolting characteristic of a seizure. The bracelet sends a wireless alert to caretakers on detecting such symptoms.

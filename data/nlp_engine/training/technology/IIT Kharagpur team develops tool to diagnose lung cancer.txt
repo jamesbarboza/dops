@@ -1,0 +1,3 @@
+IIT Kharagpur team develops tool to diagnose lung cancer
+
+IIT Kharagpur researchers have developed a decision support system to diagnose cancerous tumours and others diseased tissues in human lungs. "While one system can refer to CT scan images to detect lung nodules...second can detect Interstitial Lung Disease patterns", researchers said. "We have successfully tested both software systems at AIIMS Delhi... success rate is higher than 80%," they added.

@@ -1,0 +1,3 @@
+Human brain-like supercomputer turned on for 1st time
+
+The world's largest neuromorphic supercomputer SpiNNaker, which was designed and built to work like a human brain, has been switched on for the first time. Made up of one million processors, SpiNNaker can complete over 200 million-million actions per second. The machine can model more biological neurons in real time than any other machine on the planet, researchers claim.

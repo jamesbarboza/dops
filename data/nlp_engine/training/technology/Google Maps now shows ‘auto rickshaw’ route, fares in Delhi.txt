@@ -1,0 +1,3 @@
+Google Maps now shows ‘auto rickshaw’ route, fares in Delhi
+
+Google Maps on Monday launched an ‘auto rickshaw’ mode for commuters in Delhi that shows the route and estimated fares. The new feature can be found within the ‘public transport’ and ‘cab’ modes in the app to help users compare alternate transportation modes. The expected trip route and fare model are based on information shared by the Delhi Traffic Police.

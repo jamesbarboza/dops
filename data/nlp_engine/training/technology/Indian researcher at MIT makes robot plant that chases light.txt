@@ -1,0 +1,3 @@
+Indian researcher at MIT makes robot plant that chases light
+
+MIT scientists, including Punjabi University alumnus Harpreet Sareen, have created a robot called Elowan which when connected to a plant, responds to its need for light. The plant's internal signals are interpreted by the robot which then rolls it towards a light source, the scientists said. "[Plants] are electrically active systems readily occurring in nature," Sareen added.

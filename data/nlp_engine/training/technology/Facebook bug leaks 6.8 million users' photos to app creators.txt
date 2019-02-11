@@ -1,0 +1,3 @@
+Facebook bug leaks 6.8 million users' photos to app creators
+
+Facebook on Friday revealed that a photo API bug had leaked over 6.8 million users' photos to app developers. The leak happened between September 13 to September 25 and affected uploaded photos and not the camera roll. Facebook further announced it will roll out an alert to users and also a set of tools to help delete the leaked images.

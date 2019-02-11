@@ -1,0 +1,3 @@
+OnePlus 6T comes with integrated Google Lens
+
+OnePlus 6T supports the Google Lens functionality natively in its camera app, a feature usually available only in phones that run stock Android. Google Lens is a visual search tool that turns the phone's camera into a smart virtual eye. With it, you can find products online, see similar styles, identify popular plants and animals, learn about landmarks, and more.
