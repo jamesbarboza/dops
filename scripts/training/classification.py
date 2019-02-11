@@ -17,10 +17,10 @@ from sklearn.linear_model import LogisticRegression, SGDClassifier
 file_obj = File()
 files = file_obj.getTrainingFiles(config.__training_dir__, "")
 
-
 all_words = []
 for (path, file) in files:
 	file_path = config.__training_dir__ + path.replace("__", "/") + "/" + file
+	print(file_path)
 	lex = LexicalAnalyzer()
 	lex.load(file_path)
 
@@ -45,7 +45,6 @@ def find_features(doc_words):
 	for word in word_features:
 		features[word] = (word in doc_words)
 	return features
-
 
 feature_set = []
 for (path, file) in files:
