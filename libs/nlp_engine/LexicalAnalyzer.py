@@ -98,3 +98,25 @@ class LexicalAnalyzer:
             except:
                 print("error has occurred")
         return hashtags
+
+    #   return subject and predicate of the given sentence
+    #   check for VB VBD VBP VBZ tags
+    def getSubjectAndPredicate(self, sentence):
+        subject = ""
+        predicate = ""
+        subject_mutex = 0
+        
+        words = nltk.word_tokenize(sentence)
+        tokens = nltk.pos_tag(words)
+        
+        for (word, tag) in tokens:
+            if subject_mutex > 0:
+                predicate += word + " "
+            else:
+                if tag == "VB" or tag == "VBD" or tag == "VBP" or tag == "VBZ":
+                    predicate += word + " "
+                    subject_mutex = 1
+                else:
+                    subject += word + " "
+
+        return subject, predicate
