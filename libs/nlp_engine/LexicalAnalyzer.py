@@ -106,7 +106,7 @@ class LexicalAnalyzer:
         predicate = ""
         subject_mutex = 0
         
-        words = nltk.word_tokenize(sentence)
+        words = nltk.word_tokenize(str(sentence))
         tokens = nltk.pos_tag(words)
         
         for (word, tag) in tokens:

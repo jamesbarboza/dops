@@ -2,7 +2,7 @@ import pickle
 from nltk.tokenize import sent_tokenize, word_tokenize
 import project_config as config
 
-class MultinomialClassifier():
+class MultinomialNBClassifier():
 
     def __init__(self):
         f = open(config.__project_dir__ + "data/nlp_engine/document_classifications/classifiers/multinomial_nb.pkl", "rb")
