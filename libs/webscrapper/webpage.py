@@ -16,10 +16,21 @@ sys.exit(app.exec_())
 
 import sys
 from PyQt5 import QtCore, QtWidgets, QtWebEngineWidgets
+from PyQt5.QtWebEngineCore import QWebEngineUrlRequestInterceptor
+
+class RequestInterceptor(QWebEngineUrlRequestInterceptor):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+
+    def interceptRequest(self, info):
+        info.setHttpHeader("X-Frame-Options", "ALLOWALL")
+        info.setHttpHeader("User-Agent", "Mozilla/5.0")
+        print(info.requestUrl())
 
 class WebPage(QtWebEngineWidgets.QWebEnginePage):
     def __init__(self):
         super(WebPage, self).__init__()
+        self.profile().setRequestInterceptor(RequestInterceptor())
         self.loadFinished.connect(self.handleLoadFinished)
 
     def start(self, urls):
