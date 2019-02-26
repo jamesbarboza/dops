@@ -5,10 +5,10 @@ from nltk.probability import FreqDist
 from nltk.corpus import wordnet
 import re
 import sys
-import project_config as config
-from libs.models.Dictionary import Dictionary
-from libs.models.RawFile import RawFile
-from libs.models.File import File
+import dops.project_config as config
+from dops.libs.models.Dictionary import Dictionary
+from dops.libs.models.RawFile import RawFile
+from dops.libs.models.File import File
 
 class LexicalAnalyzer:
     

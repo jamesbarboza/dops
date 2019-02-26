@@ -1,6 +1,6 @@
 import pickle
 from nltk.tokenize import sent_tokenize, word_tokenize
-import project_config as config
+import dops.project_config as config
 
 class MultinomialNBClassifier():
 

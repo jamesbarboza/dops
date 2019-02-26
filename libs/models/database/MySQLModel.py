@@ -1,5 +1,5 @@
 import mysql.connector
-import project_config as config
+import dops.project_config as config
 
 class MySQLModel:
 	def __init__(self, table, fillable):

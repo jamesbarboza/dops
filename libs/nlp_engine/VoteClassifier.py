@@ -1,7 +1,7 @@
 from nltk.classify import ClassifierI
 from statistics import mode
 import pickle
-import project_config as config
+import dops.project_config as config
 
 class VoteClassifier(ClassifierI):
 

@@ -3,9 +3,9 @@ import nltk
 import pickle
 import sys
 
-import project_config as config
-from libs.models.Dictionary import Dictionary
-from libs.models.RawFile import RawFile
+import dops.project_config as config
+from dops.libs.models.Dictionary import Dictionary
+from dops.libs.models.RawFile import RawFile
 
 class SyntacticAnalyzer():
 	def __init__(self):

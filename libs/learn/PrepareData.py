@@ -20,7 +20,7 @@ data = text_data.getPreparedData()
 """
 
 import numpy as np
-from libs.nlp_engine.LexicalAnalyzer import LexicalAnalyzer
+from dops.libs.nlp_engine.LexicalAnalyzer import LexicalAnalyzer
 from nltk.corpus import stopwords
 import nltk
 

@@ -2,8 +2,8 @@ import os
 from os.path import isfile
 import json
 import csv
-import project_config as config
-from libs.models.File import File
+import dops.project_config as config
+from dops.libs.models.File import File
 
 
 class RawFile(File):

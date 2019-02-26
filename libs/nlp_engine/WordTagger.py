@@ -7,7 +7,7 @@ from sklearn.pipeline import Pipeline
 
 import sys
 sys.path.append("../..")
-import project_config as config
+import dops.project_config as config
 
 
 class WordTagger:

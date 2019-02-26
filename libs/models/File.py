@@ -1,4 +1,4 @@
-from libs.models.database.MySQLModel import MySQLModel
+from dops.libs.models.database.MySQLModel import MySQLModel
 
 from os import listdir
 from os.path import isdir, isfile

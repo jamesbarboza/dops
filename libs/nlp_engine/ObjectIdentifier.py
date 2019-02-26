@@ -7,7 +7,7 @@ import os
 import os.path
 import collections
 import pickle
-import project_config as config
+import dops.project_config as config
 
 
 from collections import Iterable
@@ -19,11 +19,11 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.pipeline import Pipeline
 
 
-from libs.models.File import File
-from libs.models.RawFile import RawFile
+from dops.libs.models.File import File
+from dops.libs.models.RawFile import RawFile
 
-from libs.nlp_engine.LexicalAnalyzer import LexicalAnalyzer
-from libs.nlp_engine.VoteClassifier import VoteClassifier
+from dops.libs.nlp_engine.LexicalAnalyzer import LexicalAnalyzer
+from dops.libs.nlp_engine.VoteClassifier import VoteClassifier
 
 
 
