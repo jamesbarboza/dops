@@ -1,0 +1,14 @@
+__project_dir__ = "{ path_to_dops }"
+__training_dir__ = __project_dir__ + "data/nlp_engine/training/"
+
+#MySQL Database
+__mysql_host__ = ""
+__mysql_username__ = ""
+__mysql_password__ = ""
+__mysql_database__ = "dops"
+
+#twitter keys
+capi = ""
+capi_secret = ""
+ctoken = ""
+ctoken_secret = ""
