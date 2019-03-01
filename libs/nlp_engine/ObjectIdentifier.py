@@ -9,7 +9,6 @@ import collections
 import pickle
 import dops.project_config as config
 
-
 from collections import Iterable
 from nltk.corpus import conll2000
 from nltk.chunk import conlltags2tree,tree2conlltags,ChunkParserI
@@ -17,7 +16,7 @@ from nltk.tag import ClassifierBasedTagger
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.pipeline import Pipeline
-
+import warnings
 
 from dops.libs.models.File import File
 from dops.libs.models.RawFile import RawFile
@@ -25,26 +24,22 @@ from dops.libs.models.RawFile import RawFile
 from dops.libs.nlp_engine.LexicalAnalyzer import LexicalAnalyzer
 from dops.libs.nlp_engine.VoteClassifier import VoteClassifier
 
-
-
-
-
-
-
 class ObjectIdentifier():
     
     def __init__(self):
-        file_path = config.__project_dir__+ "data/nlp_engine/ner_training/classifier.pickle"
-        if(os.path.isfile(file_path)):
-            classifier_file = open(file_path , "rb")
-            clf = pickle.load(classifier_file)
-            self.clf = clf
-            classifier_file.close()
-        else :
-            self.clf = Pipeline([
-                ('vectorizer', DictVectorizer(sparse=False)),
-                ('classifier', DecisionTreeClassifier(criterion='entropy'))
-                ])   
+        with warnings.catch_warnings():
+            warnings.simplefilter("ignore")
+            file_path = config.__project_dir__+ "data/nlp_engine/ner_training/classifier.pickle"
+            if(os.path.isfile(file_path)):
+                classifier_file = open(file_path , "rb")
+                clf = pickle.load(classifier_file)
+                self.clf = clf
+                classifier_file.close()
+            else :
+                self.clf = Pipeline([
+                    ('vectorizer', DictVectorizer(sparse=False)),
+                    ('classifier', DecisionTreeClassifier(criterion='entropy'))
+                    ])   
 
     def tag(self,sentence):
         history = []
@@ -61,9 +56,7 @@ class ObjectIdentifier():
         classifier_file = open(file_path,"ab")
         pickle.dump(self.clf,classifier_file)
         classifier_file.close()
-        
-        
-    
+   
     def accuracy(self,X_test,Y_test):
         score = self.clf.score(X_test,Y_test)
         return score
@@ -122,39 +115,39 @@ class ObjectIdentifier():
         '''
     
         return {
-        'word': word,
-        #'lemma': stemmer.stem(word),
-        'pos-tag': pos_tag ,
-        #'all-ascii': allascii,
- 
-        'next-word': next_word,
-        #'next-lemma': stemmer.stem(nextword),
-        'next-pos': next_word_pos_tag,
- 
-        'next-next-word': next_next_word,
-        'nextnextpos': next_next_word_pos_tag,
- 
-        'prev-word': prev_word,
-        #'prev-lemma': stemmer.stem(prevword),
-        'prev-pos': prev_word_pos_tag,
- 
-        'prev-prev-word': prev_prev_word,
-        'prev-prev-pos': prev_prev_word_pos_tag,
- 
-        #'prev-iob': previob,
- 
-        'contains-dash': 'false' if word.find("-") == -1  else 'true',
-        'contains-dot': 'false' if word.find(".") == -1  else 'true',
- 
-        'all-caps': is_uppercase,
-        'is-title': is_titled,
-        'is-lower': is_lowercase,
- 
-        'prev-all-caps': prev_word.isupper(),
-         #'prev-capitalized': prevcapitalized,
- 
-        'next-all-caps': next_word.isupper(),
-        #'next-capitalized': nextcapitalized,
+            'word': word,
+            #'lemma': stemmer.stem(word),
+            'pos-tag': pos_tag ,
+            #'all-ascii': allascii,
+    
+            'next-word': next_word,
+            #'next-lemma': stemmer.stem(nextword),
+            'next-pos': next_word_pos_tag,
+    
+            'next-next-word': next_next_word,
+            'nextnextpos': next_next_word_pos_tag,
+    
+            'prev-word': prev_word,
+            #'prev-lemma': stemmer.stem(prevword),
+            'prev-pos': prev_word_pos_tag,
+    
+            'prev-prev-word': prev_prev_word,
+            'prev-prev-pos': prev_prev_word_pos_tag,
+    
+            #'prev-iob': previob,
+    
+            'contains-dash': 'false' if word.find("-") == -1  else 'true',
+            'contains-dot': 'false' if word.find(".") == -1  else 'true',
+    
+            'all-caps': is_uppercase,
+            'is-title': is_titled,
+            'is-lower': is_lowercase,
+    
+            'prev-all-caps': prev_word.isupper(),
+            #'prev-capitalized': prevcapitalized,
+    
+            'next-all-caps': next_word.isupper(),
+            #'next-capitalized': nextcapitalized,
         }
 
 
