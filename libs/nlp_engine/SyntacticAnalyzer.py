@@ -5,6 +5,40 @@ from .LexicalAnalyzer import LexicalAnalyzer
 from .ObjectIdentifier import ObjectIdentifier
 import dops.project_config as config
 
+class ComplexityTree:
+	__data = None
+	__leftNode = None
+	__rightNode = None
+
+	def __init__(self, data):
+		self.__data = data
+
+	def setData(self, data):
+		self.__data = data
+
+	def getData(self):
+		return self.__data
+	
+	def setLeftNode(self, node):
+		self.__leftNode = node
+
+	def setRightNode(self, node):
+		self.__rightNode = node
+
+	def getLeftNode(self):
+		return self.__leftNode
+
+	def getRightNode(self):
+		return self.__rightNode
+
+	def printTree(self):
+		if self.getLeftNode():
+			self.getLeftNode().printTree()
+		print(self.getData())
+		if self.getRightNode():
+			self.getRightNode().printTree()
+
+
 class SyntacticAnalyzer(LexicalAnalyzer):
 
 	def __init__(self):
@@ -82,80 +116,73 @@ class SyntacticAnalyzer(LexicalAnalyzer):
 	#	Check if the sentence is complex
 	#	if True, split the statement with the help of complexwords
 	#	Store the subordination conjunctions in a stack and return the stack as well
-	def complexTree(self, sentence):
+	def complexStatement(self, sentence):
 		complexwords = []
-		statements = []
-		subordinating_conjunctions = []
+		cTree = None
 		with open(config.__project_dir__ + "data/nlp_engine/speech/complexwords", "rb") as f:
 			complexwords = pickle.load(f)
 
 		tokens = nltk.word_tokenize(sentence)
 		for token in tokens:
 			if token in complexwords:
-				subordinating_conjunctions.append(token)
+				cTree = ComplexityTree(token)
 				sentence = sentence.split(token)
 				break
 
 		if type(sentence) is list:
-			for i in range(len(sentence)):
-				statements += self.complexTree(sentence[i])[0]
-				subordinating_conjunctions += self.complexTree(sentence[i])[1]
-			return statements,subordinating_conjunctions
+			cTree.setLeftNode(self.complexStatement(sentence[0].strip()))
+			cTree.setRightNode(self.complexStatement(sentence[1].strip()))
+			return cTree
 		else:
-			return [sentence.strip()], subordinating_conjunctions
+			cTree = ComplexityTree(sentence.strip())
+			return cTree
 
 	#	Check if the sentence is compound
 	#	if True, split the statemnt with the help of compoundwords
-	def compoundTree(self, sentence):
+	def compoundStatement(self, sentence):
 		compoundwords = []
-		statements = []
-		coordinating_conjunctions = []
+		cTree = None
 		with open(config.__project_dir__ + "data/nlp_engine/speech/compoundwords", "rb") as f:
 			compoundwords = pickle.load(f)
 
 		tokens = nltk.word_tokenize(sentence)
 		for token in tokens:
 			if token in compoundwords:
-				coordinating_conjunctions.append(token)
+				cTree = ComplexityTree(token)
 				sentence = sentence.split(token)
 				break
 		
 		if type(sentence) is list:
-			for i in range(len(sentence)):
-				statements += self.compoundTree(sentence[i])[0]
-				coordinating_conjunctions += self.compoundTree(sentence[i])[1]
-			return statements, coordinating_conjunctions
+			cTree.setLeftNode(self.compoundStatement(sentence[0].strip()))
+			cTree.setRightNode(self.compoundStatement(sentence[1].strip()))
+			return cTree
 		else:
-			return [sentence.strip()], coordinating_conjunctions
+			cTree = ComplexityTree(sentence)
+			return cTree
 
 	def complexityTree(self, sentence):
-		simple_sents = []
-		conjunctions = self.complexTree(sentence)[1]
-		complex_sentences = self.complexTree(sentence)[0]
-		for i in range(len(complex_sentences)):
-			sent = complex_sentences[i]
-			simple_sents += self.compoundTree(sent)[0]
-			conjunctions += self.compoundTree(sent)[1]
+		words = []
+		ctree = None
+		with open(config.__project_dir__ + "data/nlp_engine/speech/complexwords", "rb") as f:
+			complexwords = pickle.load(f)
+			words += complexwords
 
-		return simple_sents, conjunctions
+		with open(config.__project_dir__ + "data/nlp_engine/speech/compoundwords", "rb") as f:
+			compoundwords = pickle.load(f)
+			words += compoundwords
 
+		tokens = nltk.word_tokenize(sentence)
 
-	def rephrase(self, sentence):
-		aim = self.getStatementObjectiveIfExists(sentence)
-		subject, predicate = self.getSubjectAndPredicate(sentence)
-		entities_subject = []
-		entities_predicate = []
+		for token in tokens:
+			if token in words:
+				cTree = ComplexityTree(token)
+				sentence = sentence.split(token)
+				break
 		
-		oi = ObjectIdentifier()
-		for (word, tag, entity) in oi.tag(subject):
-			if entity in ['B-PER', 'B-ORG']:
-				entities_subject.append(word)
-
-		for (word, tag, entity) in oi.tag(predicate):
-			if entity in ['B-PER', 'B-ORG']:
-				entities_predicate.append(word)
-
-		main_verb = nltk.word_tokenize(predicate)[0]
-
-		rephrased_sentence = " ".join([w for w in entities_subject]) + " " + main_verb + " ".join([w for w in entities_predicate]) + " " + aim
-		return rephrased_sentence
+		if type(sentence) is list:
+			cTree.setLeftNode(self.complexityTree(sentence[0].strip()))
+			cTree.setRightNode(self.complexityTree(sentence[1].strip()))
+			return cTree
+		else:
+			cTree = ComplexityTree(sentence.strip())
+			return cTree
