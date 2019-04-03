@@ -1,5 +1,5 @@
 import nltk
-import math 
+import math
 from nltk import word_tokenize,sent_tokenize
 from nltk.probability import FreqDist
 from nltk.corpus import wordnet
@@ -9,9 +9,10 @@ import dops.project_config as config
 from dops.libs.models.Dictionary import Dictionary
 from dops.libs.models.RawFile import RawFile
 from dops.libs.models.File import File
+import urllib.parse
 
 class LexicalAnalyzer:
-    
+
     def __init__(self):
         self._file_content = ""
 
@@ -62,7 +63,7 @@ class LexicalAnalyzer:
         synset_names = []
         for syn in synsets:
             synset_name = str(syn.name())
-        
+
         for syn in syns:
             syn_score = synset.wup_similarity(str(syn.name()))
             if syn_score > score:
@@ -70,7 +71,7 @@ class LexicalAnalyzer:
                 synonyms = [l.name() for l in s.lemmas()]
 
         return synonyms
-        
+
 
     #   get antonyms of a particular word
     def getAntonym(self, word):
@@ -105,10 +106,10 @@ class LexicalAnalyzer:
         subject = ""
         predicate = ""
         subject_mutex = 0
-        
+
         words = nltk.word_tokenize(str(sentence))
         tokens = nltk.pos_tag(words)
-        
+
         for (word, tag) in tokens:
             if subject_mutex > 0:
                 predicate += word + " "
@@ -120,3 +121,11 @@ class LexicalAnalyzer:
                     subject += word + " "
 
         return subject, predicate
+
+    #   convert to url to basic http url
+    #   HTTPS changes to HTTP, remove GET variables
+    def basic_url(self, url):
+        url = urllib.parse.unquote(url)
+        url = re.sub(r'https', 'http', url)
+        url = re.sub(r'\?(.)*', '', url)
+        return url
