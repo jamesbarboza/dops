@@ -35,11 +35,13 @@ class WebPage(QtWebEngineWidgets.QWebEnginePage):
 
     def start(self, urls):
         self._urls = iter(urls)
+        self.current_url = ""
         self.fetchNext()
 
     def fetchNext(self):
         try:
             url = next(self._urls)
+            self.current_url = url
         except StopIteration:
             return False
         else:
