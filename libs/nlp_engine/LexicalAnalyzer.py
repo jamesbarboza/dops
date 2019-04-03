@@ -127,5 +127,5 @@ class LexicalAnalyzer:
     def basic_url(self, url):
         url = urllib.parse.unquote(url)
         url = re.sub(r'https', 'http', url)
-        url = re.sub(r'\?(.)*', '', url)
+        #url = re.sub(r'\?(.)*', '', url)
         return url
